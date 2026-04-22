@@ -481,3 +481,25 @@ See LICENSE file for details.
 **Ready to start? Read [USER_MANUAL.md](USER_MANUAL.md) and run `python pre_trading_check.py`**
 
 *Trade safely! 🚀*
+
+---
+
+<!-- ARC-Trading-Fleet-Nav-Marker -->
+## 🧭 ARC Trading Fleet
+
+Six sibling repositories. Same ARC event-and-receipt doctrine. Each has its
+own live GitHub Pages docs site, source, and README.
+
+| Repo | One-liner | Source | Docs site |
+|---|---|---|---|
+| [BrokeBot](https://github.com/GareBear99/BrokeBot) | TRON Funding-Rate Arbitrage (CEX, Python) | [source](https://github.com/GareBear99/BrokeBot) | [https://garebear99.github.io/BrokeBot/](https://garebear99.github.io/BrokeBot/) |
+| [Charm](https://github.com/GareBear99/Charm) | Uniswap v3 Spot Bot on Base (Node.js) | [source](https://github.com/GareBear99/Charm) | [https://garebear99.github.io/Charm/](https://garebear99.github.io/Charm/) |
+| **Harvest** (you are here) | Multi-Timeframe Crypto Research Platform (Python) | [source](https://github.com/GareBear99/Harvest) | [https://garebear99.github.io/Harvest/](https://garebear99.github.io/Harvest/) |
+| [One-Shot-Multi-Shot](https://github.com/GareBear99/One-Shot-Multi-Shot) | Binary-Options 3-Hearts Engine (JS) | [source](https://github.com/GareBear99/One-Shot-Multi-Shot) | [https://garebear99.github.io/One-Shot-Multi-Shot/](https://garebear99.github.io/One-Shot-Multi-Shot/) |
+| [DecaGrid](https://github.com/GareBear99/DecaGrid) | Capital-Ladder Grid Trading Docs Pack | [source](https://github.com/GareBear99/DecaGrid) | [https://garebear99.github.io/DecaGrid/](https://garebear99.github.io/DecaGrid/) |
+| [EdgeStack Currency](https://github.com/GareBear99/EdgeStack_Currency) | Event-Sourced Multi-Currency Execution Spec | [source](https://github.com/GareBear99/EdgeStack_Currency) | [https://garebear99.github.io/EdgeStack_Currency/](https://garebear99.github.io/EdgeStack_Currency/) |
+
+### Upstream + meta
+- [ARC-Core](https://github.com/GareBear99/ARC-Core) — governed event + receipt spine the fleet plugs into.
+- [omnibinary-runtime](https://github.com/GareBear99/omnibinary-runtime) + [Arc-RAR](https://github.com/GareBear99/Arc-RAR) — any-OS portability for deployment.
+- [Portfolio](https://github.com/GareBear99/Portfolio) — full project index (audio plugins, games, simulators, AI runtimes, robotics, trading).
