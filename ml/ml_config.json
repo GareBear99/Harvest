@@ -1,0 +1,91 @@
+{
+  "assets": {
+    "ETH": {
+      "ml_enabled": false,
+      "features": {
+        "adaptive_thresholds": false,
+        "strategy_switching": false,
+        "intelligent_learning": false,
+        "strategy_pool": false
+      },
+      "timeframes": {
+        "15m": {
+          "enabled": true,
+          "use_ml": false
+        },
+        "1h": {
+          "enabled": true,
+          "use_ml": false
+        },
+        "4h": {
+          "enabled": true,
+          "use_ml": false
+        }
+      }
+    },
+    "BTC": {
+      "ml_enabled": false,
+      "features": {
+        "adaptive_thresholds": false,
+        "strategy_switching": false,
+        "intelligent_learning": false,
+        "strategy_pool": false
+      },
+      "timeframes": {
+        "15m": {
+          "enabled": true,
+          "use_ml": false
+        },
+        "1h": {
+          "enabled": true,
+          "use_ml": false
+        },
+        "4h": {
+          "enabled": true,
+          "use_ml": false
+        }
+      }
+    }
+  },
+  "global_settings": {
+    "max_strategies_per_timeframe": 3,
+    "min_trades_for_proven": 20,
+    "min_win_rate_for_proven": 0.72,
+    "switch_threshold_wr": 0.58,
+    "switch_threshold_losses": 5,
+    "failsafe_unprofitable_threshold": 3
+  },
+  "base_strategy_restore_point": {
+    "timestamp": "2025-12-16T15:54:02.133936",
+    "strategies": {
+      "15m": {
+        "min_confidence": 0.7,
+        "min_volume": 1.15,
+        "min_trend": 0.55,
+        "min_adx": 25,
+        "min_roc": -1.0,
+        "atr_min": 0.4,
+        "atr_max": 3.5
+      },
+      "1h": {
+        "min_confidence": 0.66,
+        "min_volume": 1.1,
+        "min_trend": 0.5,
+        "min_adx": 25,
+        "min_roc": -1.0,
+        "atr_min": 0.4,
+        "atr_max": 3.5
+      },
+      "4h": {
+        "min_confidence": 0.63,
+        "min_volume": 1.05,
+        "min_trend": 0.46,
+        "min_adx": 25,
+        "min_roc": -1.0,
+        "atr_min": 0.4,
+        "atr_max": 3.5
+      }
+    },
+    "description": "Immutable BASE_STRATEGY restore point"
+  }
+}

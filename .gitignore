@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.Python
+
+# Env + secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+secrets*.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs, artefacts, data (public repos should not carry these)
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+*.h5
+*.parquet
+
+# Trading artefacts
+trades_*.csv
+ml_adaptive_trades_*.csv
+ml_model_*.pkl
+backtest_results/
+grid_search_results/
+paper_trading_results/
+data/
+cache/
+runtime/
+
+# Harvest-specific artefacts
+grid_search_results/
+ml/trade_history.db
+ml/test_db.db
+documentation_package/
+*.json.backup
+harvest_backtest_results.json
+paper_trading/
+analysis/results/

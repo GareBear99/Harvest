@@ -1,0 +1,96 @@
+{
+  "15m": {
+    "active_strategy_id": "base",
+    "strategies": {
+      "base": {
+        "thresholds": {
+          "seed": 15001,
+          "min_confidence": 0.78,
+          "min_volume": 1.3,
+          "min_trend": 0.65,
+          "min_adx": 30,
+          "min_roc": -1.1,
+          "atr_min": 0.45,
+          "atr_max": 3.2
+        },
+        "seed": 15542880,
+        "proven_wr": null,
+        "proven_trades": 0,
+        "created_at": "2025-12-17T11:40:00.995308",
+        "last_used": "2025-12-17T11:40:00.995335",
+        "is_base": true
+      },
+      "strategy_1": {
+        "thresholds": {
+          "seed": 15001,
+          "min_confidence": 0.8,
+          "min_volume": 1.3,
+          "min_trend": 0.65,
+          "min_adx": 30,
+          "min_roc": -1.1,
+          "atr_min": 0.45,
+          "atr_max": 3.2
+        },
+        "seed": 15560761,
+        "proven_wr": 0.78,
+        "proven_trades": 25,
+        "created_at": "2025-12-17T11:40:00.995545",
+        "last_used": null,
+        "proven_on_data": "test",
+        "is_base": false
+      }
+    },
+    "consecutive_losses": 0,
+    "switch_history": []
+  },
+  "1h": {
+    "active_strategy_id": "base",
+    "strategies": {
+      "base": {
+        "thresholds": {
+          "seed": 60001,
+          "min_confidence": 0.72,
+          "min_volume": 1.2,
+          "min_trend": 0.55,
+          "min_adx": 27,
+          "min_roc": -1.15,
+          "atr_min": 0.42,
+          "atr_max": 3.3
+        },
+        "seed": 60507652,
+        "proven_wr": null,
+        "proven_trades": 0,
+        "created_at": "2025-12-17T11:40:00.995369",
+        "last_used": "2025-12-17T11:40:00.995374",
+        "is_base": true
+      }
+    },
+    "consecutive_losses": 0,
+    "switch_history": []
+  },
+  "4h": {
+    "active_strategy_id": "base",
+    "strategies": {
+      "base": {
+        "thresholds": {
+          "seed": 240001,
+          "min_confidence": 0.63,
+          "min_volume": 1.05,
+          "min_trend": 0.46,
+          "min_adx": 25,
+          "min_roc": -1.0,
+          "atr_min": 0.4,
+          "atr_max": 3.5
+        },
+        "seed": 240966292,
+        "proven_wr": null,
+        "proven_trades": 0,
+        "created_at": "2025-12-17T11:40:00.995397",
+        "last_used": "2025-12-17T11:40:00.995401",
+        "is_base": true
+      }
+    },
+    "consecutive_losses": 0,
+    "switch_history": []
+  }
+}

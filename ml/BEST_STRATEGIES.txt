@@ -1,0 +1,46 @@
+
+================================================================================
+TOP PERFORMING STRATEGIES - TARGET: 90% WIN RATE
+================================================================================
+
+Total Strategies Learned: 1
+Last Updated: 2025-12-16 14:06:32
+
+
+================================================================================
+STRATEGY #1 - RANK #1
+================================================================================
+
+Performance Metrics:
+├─ Win Rate: 83.3% ✅
+├─ Total Trades: 6
+├─ Wins: 5 | Losses: 1
+├─ Avg Win: $0.2880
+├─ Avg Loss: $0.1400
+├─ Risk/Reward: 2.06:1
+└─ Total PnL: $+1.3000
+
+Filter Configuration:
+├─ confidence: 0.700
+├─ adx: 25
+├─ volume: 1.150
+├─ trend_consistency: 0.550
+├─ atr_min: 0.400
+
+Timestamp: 2025-12-16T14:06:32.463983
+
+
+================================================================================
+USAGE INSTRUCTIONS
+================================================================================
+
+To use a strategy:
+1. Copy the filter configuration from your chosen strategy
+2. Update analysis/high_accuracy_filter.py with these values
+3. Run backtest to validate performance
+4. Monitor results and adjust if needed
+
+Strategies are automatically saved when win rate >= 80%
+Target: Consistently achieve 90%+ win rate
+
+================================================================================

@@ -1,0 +1,26 @@
+{
+  "strategies": [
+    {
+      "id": 1,
+      "timestamp": "2025-12-16T14:06:32.463983",
+      "win_rate": 83.33333333333334,
+      "total_trades": 6,
+      "wins": 5,
+      "losses": 1,
+      "avg_win": 0.288,
+      "avg_loss": 0.14,
+      "rr_ratio": 2.057142857142857,
+      "total_pnl": 1.3,
+      "filters": {
+        "confidence": 0.7,
+        "adx": 25,
+        "volume": 1.15,
+        "trend_consistency": 0.55,
+        "atr_min": 0.4
+      }
+    }
+  ],
+  "last_updated": "2025-12-16T14:06:32.464092",
+  "total_strategies": 1,
+  "best_win_rate": 83.33333333333334
+}

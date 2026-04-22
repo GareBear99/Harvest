@@ -1,0 +1,168 @@
+{
+  "seeds": {
+    "15913535": {
+      "seed": 15913535,
+      "timeframe": "15m",
+      "parameters": {
+        "min_confidence": 0.73,
+        "min_volume": 1.22,
+        "min_trend": 0.51,
+        "min_adx": 29,
+        "min_roc": 0.22,
+        "atr_min": 0.82,
+        "atr_max": 1.83
+      },
+      "version": "v2",
+      "input_seed": 777,
+      "registered_at": "2025-12-17T12:06:09.510963",
+      "test_history": [],
+      "stats": {
+        "total_tests": 0,
+        "total_trades": 0,
+        "total_wins": 0,
+        "total_losses": 0,
+        "total_pnl": 0.0,
+        "best_wr": 0.0,
+        "worst_wr": 1.0,
+        "avg_wr": 0.0
+      }
+    },
+    "1829669": {
+      "seed": 1829669,
+      "timeframe": "1m",
+      "parameters": {
+        "min_confidence": 0.82,
+        "min_volume": 1.35,
+        "min_trend": 0.68,
+        "min_adx": 32,
+        "min_roc": -1.05,
+        "atr_min": 0.5,
+        "atr_max": 3.0
+      },
+      "version": "v1",
+      "input_seed": null,
+      "registered_at": "2025-12-25T16:44:37.733390",
+      "test_history": [],
+      "stats": {
+        "total_tests": 0,
+        "total_trades": 0,
+        "total_wins": 0,
+        "total_losses": 0,
+        "total_pnl": 0.0,
+        "best_wr": 0.0,
+        "worst_wr": 1.0,
+        "avg_wr": 0.0
+      }
+    },
+    "5659348": {
+      "seed": 5659348,
+      "timeframe": "5m",
+      "parameters": {
+        "min_confidence": 0.8,
+        "min_volume": 1.3,
+        "min_trend": 0.65,
+        "min_adx": 30,
+        "min_roc": -1.1,
+        "atr_min": 0.45,
+        "atr_max": 3.2
+      },
+      "version": "v1",
+      "input_seed": null,
+      "registered_at": "2025-12-25T16:44:37.735105",
+      "test_history": [],
+      "stats": {
+        "total_tests": 0,
+        "total_trades": 0,
+        "total_wins": 0,
+        "total_losses": 0,
+        "total_pnl": 0.0,
+        "best_wr": 0.0,
+        "worst_wr": 1.0,
+        "avg_wr": 0.0
+      }
+    },
+    "15542880": {
+      "seed": 15542880,
+      "timeframe": "15m",
+      "parameters": {
+        "min_confidence": 0.78,
+        "min_volume": 1.3,
+        "min_trend": 0.65,
+        "min_adx": 30,
+        "min_roc": -1.1,
+        "atr_min": 0.45,
+        "atr_max": 3.2
+      },
+      "version": "v1",
+      "input_seed": null,
+      "registered_at": "2025-12-25T16:44:37.735624",
+      "test_history": [],
+      "stats": {
+        "total_tests": 0,
+        "total_trades": 0,
+        "total_wins": 0,
+        "total_losses": 0,
+        "total_pnl": 0.0,
+        "best_wr": 0.0,
+        "worst_wr": 1.0,
+        "avg_wr": 0.0
+      }
+    },
+    "60507652": {
+      "seed": 60507652,
+      "timeframe": "1h",
+      "parameters": {
+        "min_confidence": 0.72,
+        "min_volume": 1.2,
+        "min_trend": 0.55,
+        "min_adx": 27,
+        "min_roc": -1.15,
+        "atr_min": 0.42,
+        "atr_max": 3.3
+      },
+      "version": "v1",
+      "input_seed": null,
+      "registered_at": "2025-12-25T16:44:37.736241",
+      "test_history": [],
+      "stats": {
+        "total_tests": 0,
+        "total_trades": 0,
+        "total_wins": 0,
+        "total_losses": 0,
+        "total_pnl": 0.0,
+        "best_wr": 0.0,
+        "worst_wr": 1.0,
+        "avg_wr": 0.0
+      }
+    },
+    "240966292": {
+      "seed": 240966292,
+      "timeframe": "4h",
+      "parameters": {
+        "min_confidence": 0.63,
+        "min_volume": 1.05,
+        "min_trend": 0.46,
+        "min_adx": 25,
+        "min_roc": -1.0,
+        "atr_min": 0.4,
+        "atr_max": 3.5
+      },
+      "version": "v1",
+      "input_seed": null,
+      "registered_at": "2025-12-25T16:44:37.736885",
+      "test_history": [],
+      "stats": {
+        "total_tests": 0,
+        "total_trades": 0,
+        "total_wins": 0,
+        "total_losses": 0,
+        "total_pnl": 0.0,
+        "best_wr": 0.0,
+        "worst_wr": 1.0,
+        "avg_wr": 0.0
+      }
+    }
+  },
+  "last_updated": "2025-12-25T16:44:37.736895",
+  "total_seeds": 6
+}

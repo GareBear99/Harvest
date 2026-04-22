@@ -1,0 +1,97 @@
+{
+  "entries": [
+    {
+      "entry_id": 0,
+      "run_date": "2025-12-17T12:00:12.901101",
+      "seed": 15913535,
+      "input_seed": 777,
+      "version": "v1",
+      "timeframe": "15m",
+      "parameters": {
+        "min_confidence": 0.73,
+        "min_volume": 1.22
+      },
+      "config_hash": "a0c5f61e346d5b04",
+      "win_rate": 0.82,
+      "total_trades": 18,
+      "wins": 15,
+      "losses": 3,
+      "total_pnl": 18.3,
+      "trades": [
+        {
+          "pnl": 1.2
+        },
+        {
+          "pnl": 0.8
+        }
+      ],
+      "daily_stats": {},
+      "asset": "ETH",
+      "data_file": "eth_90days.json",
+      "backtest_seed": 42,
+      "duration_days": 90,
+      "errors": [],
+      "warnings": [],
+      "notes": "",
+      "max_drawdown": 0.05,
+      "sharpe_ratio": null,
+      "profit_factor": null,
+      "avg_trade_duration": null,
+      "performance_tier": "excellent"
+    },
+    {
+      "entry_id": 1,
+      "run_date": "2025-12-17T12:00:12.914237",
+      "seed": 60507652,
+      "input_seed": 100,
+      "version": "v1",
+      "timeframe": "1h",
+      "parameters": {
+        "min_confidence": 0.72,
+        "min_volume": 1.2
+      },
+      "config_hash": "55c00833d2aa6800",
+      "win_rate": 0.45,
+      "total_trades": 15,
+      "wins": 7,
+      "losses": 8,
+      "total_pnl": -3.2,
+      "trades": [],
+      "daily_stats": {},
+      "asset": "BTC",
+      "data_file": "btc_90days.json",
+      "backtest_seed": null,
+      "duration_days": 0,
+      "errors": [],
+      "warnings": [
+        "Low win rate",
+        "High drawdown"
+      ],
+      "notes": "",
+      "max_drawdown": 0.15,
+      "sharpe_ratio": null,
+      "profit_factor": null,
+      "avg_trade_duration": null,
+      "performance_tier": "poor"
+    }
+  ],
+  "last_updated": "2025-12-17T12:00:12.914353",
+  "total_runs": 2,
+  "statistics": {
+    "total_runs": 2,
+    "by_timeframe": {
+      "15m": 1,
+      "1h": 1
+    },
+    "by_performance": {
+      "excellent": 1,
+      "poor": 1
+    },
+    "by_asset": {
+      "ETH": 1,
+      "BTC": 1
+    },
+    "avg_win_rate": 0.635,
+    "total_trades": 33
+  }
+}

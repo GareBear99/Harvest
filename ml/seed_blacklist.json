@@ -1,0 +1,20 @@
+{
+  "generated_at": "2025-12-17T12:03:02.515674",
+  "count": 2,
+  "seeds": [
+    {
+      "seed": 24012345,
+      "timeframe": "4h",
+      "avg_win_rate": 0.52,
+      "total_pnl": -5.4,
+      "reason": "Low WR"
+    },
+    {
+      "seed": 60507652,
+      "timeframe": "1h",
+      "avg_win_rate": 0.45,
+      "total_pnl": -3.2,
+      "reason": "Low WR"
+    }
+  ]
+}

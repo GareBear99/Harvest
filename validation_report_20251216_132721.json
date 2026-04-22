@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-16T13:27:18.480690",
+    "system": "HARVEST Dual-Engine Trading System",
+    "version": "1.0.0-beta"
+  },
+  "test_results": {
+    "phase1_indicators": {
+      "description": "Indicator Calculation Tests",
+      "command": "python3 tests/test_indicators.py",
+      "success": false,
+      "output": "======================================================================\nINDICATOR VALIDATION TESTS\n======================================================================\n\n\ud83d\udcdd Testing: RSI Trending Up\nRSI on uptrend: 100.00\n\u2705 PASS: RSI Trending Up\n\n\ud83d\udcdd Testing: RSI Trending Down\nRSI on downtrend: 0.00\n\u2705 PASS: RSI Trending Down\n\n\ud83d\udcdd Testing: RSI Flat\nRSI on flat: 50.00\n\u2705 PASS: RSI Flat\n\n\ud83d\udcdd Testing: RSI Oscillating\nRSI on sine wave: 25.68\n\u2705 PASS: RSI Oscillating\n\n\ud83d\udcdd Testing: ATR Simple\nATR with 10-point range: 10.00\n\u2705 PASS: ATR Simple\n\n\ud83d\udcdd Testing: ATR Increasing Volatility\nATR low volatility: 0.00, high volatility: 4.85\n\u2705 PASS: ATR Increasing Volatility\n\n\ud83d\udcdd Testing: EMA Trending\nEMA20: 189.50, EMA50: 174.50, Latest price: 199.00\n\u2705 PASS: EMA Trending\n\n\ud83d\udcdd Testing: Volume Average\nVolume average: 1000.00\n\u2705 PASS: Volume Average\n\n\ud83d\udcdd Testing: Range Break Detection\nBefore breakout: up=False, down=False\nAfter breakout: up=False, down=False\n\u274c FAIL: Range Break Detection - Should detect upward breakout\n\n======================================================================\nRESULTS: 8 passed, 1 failed\n======================================================================\n",
+      "errors": "",
+      "return_code": 1
+    },
+    "phase2_strategies": {
+      "description": "Strategy Integration Tests",
+      "command": "python3 tests/test_strategy_signals_v2.py",
+      "success": true,
+      "output": "============================================================\nHARVEST STRATEGY INTEGRATION TESTS (PHASE 2)\n============================================================\n\n=== Test: Risk Governor Blocks After Consecutive Losses ===\n\u26a0\ufe0f  RISK BREACH: 2 consecutive losses\nConsecutive losses: 2\nActive engine: IDLE\n\u2705 PASS: Risk governor correctly blocks trading after max consecutive losses\n\n=== Test: Risk Governor Blocks After Daily Drawdown ===\n\u26a0\ufe0f  RISK BREACH: Daily drawdown -2.00% exceeds limit\nDaily PnL: $-200.00 (-2.0%)\nMax drawdown: 2.0%\nActive engine: IDLE\n\u2705 PASS: Risk governor correctly blocks trading after hitting daily drawdown\n\n=== Test: Regime Determines Strategy Selection ===\n  Regime: range           -> Engine: ER-90  (expected: ER-90)\n  Regime: weak_trend      -> Engine: ER-90  (expected: ER-90)\n  Regime: strong_trend    -> Engine: SIB    (expected: SIB)\n\u2705 PASS: Regime correctly determines strategy selection\n\n=== Test: ER-90 Max Trades Per Day Limit ===\nER-90 losses today: 1\nMax ER-90 losses per day: 1\nActive engine: ER-90\n\u274c FAIL: Expected IDLE, got ER-90\n\n=== Test: SIB Max Trades Per Day Limit ===\nSIB trades today: 1\nMax SIB trades per day: 1\nActive engine: SIB\n\u274c FAIL: Expected IDLE, got SIB\n\n=== Test: Regime Classifier Detects Range ===\nDetected regime: range\n\u2705 PASS: Correctly classified flat market as RANGE\n\n=== Test: Regime Classifier Detects Trend ===\nDetected regime: weak_trend\n\u2705 PASS: Correctly classified uptrend as weak_trend\n\n=== Test: ER-90 and SIB Mutual Exclusivity ===\nRANGE regime -> ER-90\nSTRONG_TREND regime -> SIB\n\u2705 PASS: Strategies are mutually exclusive based on regime\n\n============================================================\nPHASE 2 TEST SUMMARY\n============================================================\n\u2705 PASS: Risk Governor: Consecutive Losses\n\u2705 PASS: Risk Governor: Daily Drawdown\n\u2705 PASS: Regime -> Strategy Selection\n\u274c FAIL: ER-90 Max Trades Limit\n\u274c FAIL: SIB Max Trades Limit\n\u2705 PASS: Regime: Range Detection\n\u2705 PASS: Regime: Trend Detection\n\u2705 PASS: Mutual Exclusivity\n\nTotal: 6/8 tests passed (75%)\n\n\u26a0\ufe0f  2 test(s) failed\n",
+      "errors": "",
+      "return_code": 0
+    },
+    "phase3_risk_management": {
+      "description": "Risk Management Tests",
+      "command": "python3 tests/test_risk_management.py",
+      "success": false,
+      "output": "",
+      "errors": "Traceback (most recent call last):\n  File \"/Users/TheRustySpoon/harvest/tests/test_risk_management.py\", line 14, in <module>\n    from core.models import StrategyConfig, AccountState, RiskGovernorState, RegimeType, TradeSignal\nImportError: cannot import name 'StrategyConfig' from 'core.models' (/Users/TheRustySpoon/harvest/core/models.py)\n",
+      "return_code": 1
+    },
+    "phase4_backtesting": {
+      "description": "Extended Backtesting",
+      "success": null,
+      "notes": "Skipped - requires live API access. Run manually if needed."
+    },
+    "cli_tests": [
+      {
+        "description": "CLI Info Command",
+        "command": "python3 cli.py info",
+        "success": true,
+        "output": "\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551           HARVEST - Dual-Engine Trading System              \u2551\n\u2551                     Version 1.0.0                           \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\n\n\ud83d\udcca DESCRIPTION\n  Automated leveraged trading system with dual strategies:\n  - ER-90: Exhaustion reversion (85-92% win rate target)\n  - SIB: Single impulse breakout (trend following)\n\n\u26a0\ufe0f  RISK WARNING\n  This system uses leverage (10-40x) which amplifies both\n  gains and losses. You can lose more than your initial capital.\n  Trade responsibly and never risk more than you can afford to lose.\n\n\ud83d\udee1\ufe0f  SAFETY FEATURES\n  \u2713 Risk governor (cannot be bypassed)\n  \u2713 Mandatory stop-losses on every trade\n  \u2713 2% max daily drawdown limit\n  \u2713 Max 2 consecutive losses before pause\n  \u2713 Liquidation buffer validation\n  \u2713 Regime-based strategy switching\n\n\ud83d\udce6 COMPONENTS\n  \u2022 Data ingestion (Binance API)\n  \u2022 Technical indicators (RSI, ATR, EMA, ADX)\n  \u2022 Regime classifier\n  \u2022 Risk governance\n  \u2022 Backtesting framework\n  \u2022 Execution intent generator\n\n\ud83d\udcda DOCUMENTATION\n  README: ./README.md\n  Validation: ./VALIDATION_PROGRESS.md\n  GitHub: https://github.com/yourusername/harvest\n\n\ud83d\udcac SUPPORT\n  Issues: https://github.com/yourusername/harvest/issues\n  Discussions: https://github.com/yourusername/harvest/discussions\n\n\u2696\ufe0f  LICENSE\n  See LICENSE file for terms and conditions\n\n",
+        "errors": "",
+        "return_code": 0
+      },
+      {
+        "description": "CLI Status Command",
+        "command": "python3 cli.py status",
+        "success": true,
+        "output": "\ud83d\udcca HARVEST v1.0.0 - System Status\n\nConfiguration:\n  Initial Equity: $10,000.00\n  Max Daily Drawdown: 2.0%\n  Max Consecutive Losses: 2\n\nER-90 Strategy:\n  RSI Thresholds: 70.0/30.0\n  Leverage: 10.0-20.0x\n  Risk per Trade: 0.25-0.5%\n\nSIB Strategy:\n  ADX Threshold: 20.0\n  Leverage: 20.0-40.0x\n  Risk per Trade: 0.5-1.0%\n",
+        "errors": "",
+        "return_code": 0
+      },
+      {
+        "description": "CLI Validate Command",
+        "command": "python3 cli.py validate",
+        "success": false,
+        "output": "\ud83d\udd0d HARVEST v1.0.0 - Running validation tests\n\n\u274c Error during validation: No module named 'test_data_generators'\n",
+        "errors": "",
+        "return_code": 1
+      }
+    ]
+  },
+  "summary": {
+    "total_tests": 6,
+    "passed_tests": 3,
+    "failed_tests": 3,
+    "pass_rate": 50.0,
+    "files_present": 12,
+    "total_files": 12,
+    "production_ready": false
+  },
+  "system_checks": [
+    {
+      "file": "README.md",
+      "exists": true
+    },
+    {
+      "file": "README_PRODUCTION.md",
+      "exists": true
+    },
+    {
+      "file": "LICENSE",
+      "exists": true
+    },
+    {
+      "file": "requirements.txt",
+      "exists": true
+    },
+    {
+      "file": "Dockerfile",
+      "exists": true
+    },
+    {
+      "file": "docker-compose.yml",
+      "exists": true
+    },
+    {
+      "file": "install.sh",
+      "exists": true
+    },
+    {
+      "file": "cli.py",
+      "exists": true
+    },
+    {
+      "file": "backtester.py",
+      "exists": true
+    },
+    {
+      "directory": "core",
+      "exists": true
+    },
+    {
+      "directory": "strategies",
+      "exists": true
+    },
+    {
+      "directory": "tests",
+      "exists": true
+    }
+  ]
+}

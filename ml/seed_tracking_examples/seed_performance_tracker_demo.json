@@ -1,0 +1,113 @@
+{
+  "seeds": {
+    "15913535": {
+      "seed": 15913535,
+      "first_tested": "2025-12-17T12:03:02.511901",
+      "timeframe": "15m",
+      "test_count": 2,
+      "performance_history": [
+        {
+          "test_date": "2025-12-17T12:03:02.511994",
+          "win_rate": 0.82,
+          "total_trades": 18,
+          "total_pnl": 18.3,
+          "wins": 15,
+          "losses": 3,
+          "max_drawdown": 0
+        },
+        {
+          "test_date": "2025-12-17T12:03:02.512849",
+          "win_rate": 0.78,
+          "total_trades": 20,
+          "total_pnl": 15.5,
+          "wins": 16,
+          "losses": 4,
+          "max_drawdown": 0
+        }
+      ],
+      "latest_win_rate": 0.78,
+      "latest_trades": 20,
+      "latest_pnl": 15.5,
+      "total_trades_all_tests": 38,
+      "avg_win_rate": 0.8,
+      "total_pnl_all_tests": 33.8
+    },
+    "60507652": {
+      "seed": 60507652,
+      "first_tested": "2025-12-17T12:03:02.513477",
+      "timeframe": "1h",
+      "test_count": 1,
+      "performance_history": [
+        {
+          "test_date": "2025-12-17T12:03:02.513489",
+          "win_rate": 0.45,
+          "total_trades": 15,
+          "total_pnl": -3.2,
+          "wins": 7,
+          "losses": 8,
+          "max_drawdown": 0
+        }
+      ],
+      "latest_win_rate": 0.45,
+      "latest_trades": 15,
+      "latest_pnl": -3.2,
+      "total_trades_all_tests": 15,
+      "avg_win_rate": 0.45,
+      "total_pnl_all_tests": -3.2
+    },
+    "24012345": {
+      "seed": 24012345,
+      "first_tested": "2025-12-17T12:03:02.514143",
+      "timeframe": "4h",
+      "test_count": 1,
+      "performance_history": [
+        {
+          "test_date": "2025-12-17T12:03:02.514155",
+          "win_rate": 0.52,
+          "total_trades": 18,
+          "total_pnl": -5.4,
+          "wins": 9,
+          "losses": 9,
+          "max_drawdown": 0
+        }
+      ],
+      "latest_win_rate": 0.52,
+      "latest_trades": 18,
+      "latest_pnl": -5.4,
+      "total_trades_all_tests": 18,
+      "avg_win_rate": 0.52,
+      "total_pnl_all_tests": -5.4
+    }
+  },
+  "blacklist": [
+    24012345,
+    60507652
+  ],
+  "whitelist": [
+    15913535
+  ],
+  "last_updated": "2025-12-17T12:03:02.514202",
+  "statistics": {
+    "total_seeds": 3,
+    "whitelisted": 1,
+    "blacklisted": 2,
+    "neutral": 0,
+    "by_timeframe": {
+      "15m": {
+        "total": 1,
+        "whitelist": 1,
+        "blacklist": 0
+      },
+      "1h": {
+        "total": 1,
+        "whitelist": 0,
+        "blacklist": 1
+      },
+      "4h": {
+        "total": 1,
+        "whitelist": 0,
+        "blacklist": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "snapshots": {
+    "15913535": {
+      "seed": 15913535,
+      "timeframe": "15m",
+      "version": "v2",
+      "input_seed": 777,
+      "parameters": {
+        "min_confidence": 0.73,
+        "min_volume": 1.22,
+        "min_trend": 0.51,
+        "min_adx": 29,
+        "min_roc": 0.22,
+        "atr_min": 0.82,
+        "atr_max": 1.83
+      },
+      "config_hash": "5b4331c76727366a",
+      "created_at": "2025-12-17T12:06:09.510556",
+      "backtest_stats": {},
+      "verification_history": []
+    }
+  },
+  "last_updated": "2025-12-17T12:06:09.510577",
+  "total_snapshots": 1
+}

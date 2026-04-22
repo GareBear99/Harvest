@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  harvest:
+    build: .
+    image: harvest-trading:latest
+    container_name: harvest-bot
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+      - ./config.yaml:/app/config.yaml:ro
+    environment:
+      - HARVEST_ENV=production
+      - LOG_LEVEL=INFO
+    # Uncomment for live trading (requires .env file)
+    # env_file:
+    #   - .env
+    command: ["status"]
+    networks:
+      - harvest-network
+
+networks:
+  harvest-network:
+    driver: bridge
+
+volumes:
+  data:

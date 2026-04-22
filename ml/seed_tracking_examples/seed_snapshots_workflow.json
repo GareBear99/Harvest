@@ -1,0 +1,161 @@
+{
+  "snapshots": {
+    "15557956": {
+      "seed": 15557956,
+      "timeframe": "15m",
+      "version": "v1",
+      "input_seed": 10,
+      "parameters": {
+        "min_confidence": 0.79,
+        "min_volume": 1.21,
+        "min_trend": 0.57,
+        "min_adx": 28,
+        "min_roc": 0.17,
+        "atr_min": 0.8,
+        "atr_max": 1.99
+      },
+      "config_hash": "b2cbe1366bf8704c",
+      "created_at": "2025-12-17T11:57:15.147845",
+      "backtest_stats": {
+        "win_rate": 0.7,
+        "trades": 20
+      },
+      "verification_history": [
+        {
+          "seed": 15557956,
+          "verified": true,
+          "expected_hash": "b2cbe1366bf8704c",
+          "actual_hash": "b2cbe1366bf8704c",
+          "timestamp": "2025-12-17T11:57:15.148214",
+          "message": "\u2705 Seed 15557956 produces exact same configuration"
+        }
+      ]
+    },
+    "15274921": {
+      "seed": 15274921,
+      "timeframe": "15m",
+      "version": "v1",
+      "input_seed": 20,
+      "parameters": {
+        "min_confidence": 0.84,
+        "min_volume": 1.34,
+        "min_trend": 0.63,
+        "min_adx": 27,
+        "min_roc": 0.14,
+        "atr_min": 0.85,
+        "atr_max": 2.43
+      },
+      "config_hash": "7ebb748e016fb576",
+      "created_at": "2025-12-17T11:57:15.148858",
+      "backtest_stats": {
+        "win_rate": 0.7,
+        "trades": 20
+      },
+      "verification_history": [
+        {
+          "seed": 15274921,
+          "verified": true,
+          "expected_hash": "7ebb748e016fb576",
+          "actual_hash": "7ebb748e016fb576",
+          "timestamp": "2025-12-17T11:57:15.149477",
+          "message": "\u2705 Seed 15274921 produces exact same configuration"
+        }
+      ]
+    },
+    "15791383": {
+      "seed": 15791383,
+      "timeframe": "15m",
+      "version": "v1",
+      "input_seed": 30,
+      "parameters": {
+        "min_confidence": 0.78,
+        "min_volume": 1.14,
+        "min_trend": 0.41,
+        "min_adx": 35,
+        "min_roc": 0.22,
+        "atr_min": 0.99,
+        "atr_max": 1.83
+      },
+      "config_hash": "46249178530de062",
+      "created_at": "2025-12-17T11:57:15.150065",
+      "backtest_stats": {
+        "win_rate": 0.7,
+        "trades": 20
+      },
+      "verification_history": [
+        {
+          "seed": 15791383,
+          "verified": true,
+          "expected_hash": "46249178530de062",
+          "actual_hash": "46249178530de062",
+          "timestamp": "2025-12-17T11:57:15.150497",
+          "message": "\u2705 Seed 15791383 produces exact same configuration"
+        }
+      ]
+    },
+    "15184367": {
+      "seed": 15184367,
+      "timeframe": "15m",
+      "version": "v1",
+      "input_seed": 40,
+      "parameters": {
+        "min_confidence": 0.77,
+        "min_volume": 1.44,
+        "min_trend": 0.41,
+        "min_adx": 29,
+        "min_roc": 0.2,
+        "atr_min": 0.85,
+        "atr_max": 1.94
+      },
+      "config_hash": "4990d22a89861d88",
+      "created_at": "2025-12-17T11:57:15.150984",
+      "backtest_stats": {
+        "win_rate": 0.7,
+        "trades": 20
+      },
+      "verification_history": [
+        {
+          "seed": 15184367,
+          "verified": true,
+          "expected_hash": "4990d22a89861d88",
+          "actual_hash": "4990d22a89861d88",
+          "timestamp": "2025-12-17T11:57:15.151441",
+          "message": "\u2705 Seed 15184367 produces exact same configuration"
+        }
+      ]
+    },
+    "15600078": {
+      "seed": 15600078,
+      "timeframe": "15m",
+      "version": "v1",
+      "input_seed": 50,
+      "parameters": {
+        "min_confidence": 0.77,
+        "min_volume": 1.13,
+        "min_trend": 0.59,
+        "min_adx": 28,
+        "min_roc": 0.2,
+        "atr_min": 0.91,
+        "atr_max": 2.03
+      },
+      "config_hash": "73e3e25c9d549e96",
+      "created_at": "2025-12-17T11:57:15.151962",
+      "backtest_stats": {
+        "win_rate": 0.7,
+        "trades": 20
+      },
+      "verification_history": [
+        {
+          "seed": 15600078,
+          "verified": true,
+          "expected_hash": "73e3e25c9d549e96",
+          "actual_hash": "73e3e25c9d549e96",
+          "timestamp": "2025-12-17T11:57:15.152467",
+          "message": "\u2705 Seed 15600078 produces exact same configuration"
+        }
+      ]
+    }
+  },
+  "last_updated": "2025-12-17T11:57:15.152476",
+  "total_snapshots": 5
+}

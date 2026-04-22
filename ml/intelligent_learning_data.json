@@ -1,0 +1,82 @@
+{
+  "error_patterns": {
+    "trend_reversal": {
+      "count": 60,
+      "features": [],
+      "severity": 1.0
+    },
+    "false_breakout": {
+      "count": 15,
+      "features": [],
+      "severity": 0.75
+    },
+    "volatility_spike": {
+      "count": 0,
+      "features": [],
+      "severity": 0
+    },
+    "time_decay": {
+      "count": 0,
+      "features": [],
+      "severity": 0
+    },
+    "wrong_confluence": {
+      "count": 15,
+      "features": [],
+      "severity": 0.75
+    },
+    "premature_exit": {
+      "count": 0,
+      "features": [],
+      "severity": 0
+    }
+  },
+  "feature_errors": {
+    "trend_consistency": {
+      "correct": 0,
+      "wrong": 75,
+      "error_types": {
+        "trend_reversal": 60,
+        "wrong_confluence": 15
+      }
+    },
+    "ema9_slope": {
+      "correct": 0,
+      "wrong": 60,
+      "error_types": {
+        "trend_reversal": 60
+      }
+    },
+    "ema21_slope": {
+      "correct": 0,
+      "wrong": 60,
+      "error_types": {
+        "trend_reversal": 60
+      }
+    },
+    "volume_ratio": {
+      "correct": 0,
+      "wrong": 30,
+      "error_types": {
+        "false_breakout": 15,
+        "wrong_confluence": 15
+      }
+    },
+    "roc_10": {
+      "correct": 0,
+      "wrong": 15,
+      "error_types": {
+        "false_breakout": 15
+      }
+    },
+    "distance_from_ema9": {
+      "correct": 0,
+      "wrong": 15,
+      "error_types": {
+        "wrong_confluence": 15
+      }
+    }
+  },
+  "last_updated": "2025-12-16T15:14:52.632995",
+  "total_errors": 90
+}

@@ -1,0 +1,102 @@
+{
+  "seeds": {
+    "15542880": {
+      "seed": 15542880,
+      "timeframe": "15m",
+      "parameters": {
+        "min_confidence": 0.78,
+        "min_volume": 1.3
+      },
+      "version": "v1",
+      "input_seed": 42,
+      "registered_at": "2025-12-17T11:51:54.261211",
+      "test_history": [
+        {
+          "test_date": "2025-12-17T11:51:54.262745",
+          "dataset": "ETH_90days",
+          "win_rate": 0.75,
+          "trades": 20,
+          "wins": 15,
+          "losses": 5,
+          "pnl": 12.5
+        }
+      ],
+      "stats": {
+        "total_tests": 1,
+        "total_trades": 20,
+        "total_wins": 15,
+        "total_losses": 5,
+        "total_pnl": 12.5,
+        "best_wr": 0.75,
+        "worst_wr": 0.75,
+        "avg_wr": 0.75
+      }
+    },
+    "15913535": {
+      "seed": 15913535,
+      "timeframe": "15m",
+      "parameters": {
+        "min_confidence": 0.73,
+        "min_volume": 1.22
+      },
+      "version": "v1",
+      "input_seed": 777,
+      "registered_at": "2025-12-17T11:51:54.261812",
+      "test_history": [
+        {
+          "test_date": "2025-12-17T11:51:54.263287",
+          "dataset": "ETH_90days",
+          "win_rate": 0.82,
+          "trades": 18,
+          "wins": 15,
+          "losses": 3,
+          "pnl": 18.3
+        }
+      ],
+      "stats": {
+        "total_tests": 1,
+        "total_trades": 18,
+        "total_wins": 15,
+        "total_losses": 3,
+        "total_pnl": 18.3,
+        "best_wr": 0.82,
+        "worst_wr": 0.82,
+        "avg_wr": 0.8333333333333334
+      }
+    },
+    "60507652": {
+      "seed": 60507652,
+      "timeframe": "1h",
+      "parameters": {
+        "min_confidence": 0.72,
+        "min_volume": 1.2
+      },
+      "version": "v1",
+      "input_seed": 100,
+      "registered_at": "2025-12-17T11:51:54.262287",
+      "test_history": [
+        {
+          "test_date": "2025-12-17T11:51:54.263964",
+          "dataset": "ETH_90days",
+          "win_rate": 0.45,
+          "trades": 15,
+          "wins": 7,
+          "losses": 8,
+          "pnl": -3.2
+        }
+      ],
+      "stats": {
+        "total_tests": 1,
+        "total_trades": 15,
+        "total_wins": 7,
+        "total_losses": 8,
+        "total_pnl": -3.2,
+        "best_wr": 0.45,
+        "worst_wr": 0.45,
+        "avg_wr": 0.4666666666666667
+      }
+    }
+  },
+  "last_updated": "2025-12-17T11:51:54.263980",
+  "total_seeds": 3
+}

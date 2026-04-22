@@ -1,0 +1,26 @@
+[
+  {
+    "seed": null,
+    "data_file": "data/eth_90days.json",
+    "started_at": "2025-12-18T01:34:25.161442",
+    "status": "stopped",
+    "command": "python backtest_90_complete.py --data-file data/eth_90days.json",
+    "stopped_at": "2025-12-18T01:35:03.762423"
+  },
+  {
+    "seed": null,
+    "data_file": "data/eth_90days.json",
+    "started_at": "2025-12-18T01:45:47.515473",
+    "status": "stopped",
+    "command": "python backtest_90_complete.py --data-file data/eth_90days.json",
+    "stopped_at": "2025-12-18T01:46:17.320126"
+  },
+  {
+    "seed": null,
+    "data_file": "data/eth_90days.json",
+    "started_at": "2025-12-18T02:02:29.568226",
+    "status": "stopped",
+    "command": "python backtest_90_complete.py --data-file data/eth_90days.json",
+    "stopped_at": "2025-12-18T02:02:58.496685"
+  }
+]
