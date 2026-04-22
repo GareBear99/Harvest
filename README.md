@@ -42,6 +42,15 @@ and [Charm](https://github.com/GareBear99/Charm). Emit decisions into the
 
 ---
 
+<!-- ARC-Official-Docs-Link-Marker -->
+## 📖 Official docs
+
+[**Open the rendered official docs → https://garebear99.github.io/Harvest/official/docs_home.html**](https://garebear99.github.io/Harvest/official/docs_home.html)
+
+Also available under [`docs/official/`](https://github.com/GareBear99/Harvest/tree/main/docs/official) in-tree, and through the Pages landing at [https://garebear99.github.io/Harvest/](https://garebear99.github.io/Harvest/).
+
+
+
 # Cryptocurrency Trading System
 **Version 2.0+ | Production Ready | December 26, 2024**
 
