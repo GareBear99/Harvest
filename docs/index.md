@@ -11,6 +11,14 @@ description: Multi-Timeframe Crypto Research Platform (Python) — part of the A
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/GareBear99/Harvest/blob/main/LICENSE)
 [![Built on ARC-Core](https://img.shields.io/badge/built%20on-ARC--Core-5B6CFF)](https://github.com/GareBear99/ARC-Core)
 
+## 📖 Official docs
+
+[![Open the official docs](https://img.shields.io/badge/%F0%9F%93%96%20Open%20Official%20Docs-Harvest%20HTML%20Docs-0366d6?style=for-the-badge)](./official/docs_home.html)
+
+[![User Manual](https://img.shields.io/badge/%F0%9F%93%98%20User%20Manual-open-grey?style=for-the-badge)](./official/USER_MANUAL.html) [![Mathematics](https://img.shields.io/badge/%F0%9F%93%90%20Mathematics-open-grey?style=for-the-badge)](./official/MATHEMATICS.html) [![TRON Integration](https://img.shields.io/badge/%F0%9F%94%97%20TRON-open-grey?style=for-the-badge)](./official/TRON_INTEGRATION.html) [![Seed System](https://img.shields.io/badge/%F0%9F%8C%B1%20Seed%20System-open-grey?style=for-the-badge)](./official/SEED_SYSTEM.html)
+
+Live URL of the primary doc: `https://garebear99.github.io/Harvest/official/docs_home.html`
+
 ## What this is
 
 Harvest is part of the **ARC Trading Fleet** — six public repositories that share a

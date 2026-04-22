@@ -54,7 +54,6 @@ runtime/
 grid_search_results/
 ml/trade_history.db
 ml/test_db.db
-documentation_package/
 *.json.backup
 harvest_backtest_results.json
 paper_trading/
